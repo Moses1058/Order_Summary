@@ -1,0 +1,178 @@
+body {
+    background-image: url("./Images/pattern-background-desktop.svg");
+    background-color: #e0e8ff;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .order-summary {
+    text-align: center;
+    width: 450px;
+    height: 697px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  img {
+    max-width: 100%;
+  }
+  h1,
+  p {
+    font-family: "Red hat display";
+  }
+  h1 {
+    color: #1f2e55;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    margin: 40px 48px 0px 48px;
+    font-style: normal;
+  }
+  #caption {
+    color: #717fa6;
+    margin: 17px 48px 0px 48px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  /* Second Part of Card */
+  .plan {
+    background-color: #f7f9ff;
+    width: 354px;
+    height: 98px;
+    margin: 20px 48px 0px 48px;
+    position: relative;
+    display: flex;
+    padding: 0px;
+    border-radius: 11px;
+  }
+  .plan p {
+    display: inline-block;
+  }
+  #music-icon {
+    width: 48px;
+    height: 48px;
+    margin: 25px 20px 25px 25px;
+  }
+  #annual-plan {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0px;
+    top: 25px;
+    left: 92px;
+    color: #1f2e55;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  #price {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0px;
+    top: 52px;
+    left: 92px;
+    color: #717fa6;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  #change {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0px;
+    bottom: 39px;
+    left: 278px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #382ae1;
+  }
+  /* Change Ancher point styles */
+  #change:hover a {
+    text-decoration: none;
+    color: #766cf1;
+  }
+  #change-link:link {
+    color: #382ae1;
+    text-decoration: underline;
+  }
+  #change-link:visited {
+    color: #382ae1;
+    text-decoration: underline;
+  }
+  #change-link:active {
+    color: #382ae1;
+    text-decoration: underline;
+  }
+  
+  /* Payment "button" styles */
+  #payment {
+    background-color: #382ae1;
+    border-radius: 11px;
+    color: white;
+    width: 150px;
+    height: 20px;
+    padding: 15px 102px 15px 102px;
+    margin: 32px 48px 0px 48px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #payment:hover {
+    background-color: #766cf1;
+  }
+  
+  /* Canceling order Stlyes */
+  #cancel-order {
+    color: #717fa6;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    display: inline-block;
+    padding: 0px;
+    margin: 32px 178px 48px 176px;
+  }
+  #cancel-order:hover a {
+    color: #1f2e55;
+  }
+  a:link {
+    text-decoration: none;
+    color: #717fa6;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #717fa6;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+    color: #717fa6;
+  }
+  
+  /* Footer Styles */
+  footer p{
+    margin: 0;
+    display: inline;
+    font-size: 14px;
+  }
+  footer {
+   margin-top: 30px;
+  }
+  #name {
+    color: rgb(12, 17, 17)
+  }
